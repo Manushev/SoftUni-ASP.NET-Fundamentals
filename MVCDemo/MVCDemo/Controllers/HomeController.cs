@@ -15,6 +15,14 @@ namespace MVCDemo.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Title = "Home Page";
+            ViewBag.Message = "Hello World!";
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            ViewBag.Message = "This is an ASP.NET Core MVC app.";
             return View();
         }
 
