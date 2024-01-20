@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 using MVCDemo.Models.Product;
+using System.Text;
+using System.Text.Json;
 
 namespace MVCDemo.Controllers
 {
@@ -45,5 +48,41 @@ namespace MVCDemo.Controllers
             return BadRequest();
         }
 
+        public IActionResult AllAsJason() 
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+            };
+            return Json(products, options);
+        }
+
+        public IActionResult AllAsText()
+        {
+            var plainText = new StringBuilder();
+            foreach (var product in products)
+            {
+                plainText.AppendLine($"Product {product.Id}: {product.Name} - {product.Price} lv.");
+            }
+            return Content(plainText.ToString(), "text/plain");
+        }
+
+        public IActionResult AllAsTextFile()
+        {
+            var plainText = new StringBuilder();
+            foreach (var product in products)
+            {
+                plainText.AppendLine($"Product {product.Id}: {product.Name} - {product.Price} lv.");
+            }
+
+            byte[] fileContents = Encoding.UTF8.GetBytes(plainText.ToString());
+
+            return File(fileContents, "text/plain", "Products.txt");
+            //Response.Headers.Add(HeaderNames.ContentDisposition,
+            //    @"attachment;filename=products.txt");
+
+
+            //return File(Encoding.UTF8.GetBytes(plainText.ToString().TrimEnd()), "text/plain");
+        }
     }
 }
