@@ -26,6 +26,12 @@ namespace MVCDemo.Controllers
             return View();
         }
 
+        public IActionResult NumbersToN(int count = 3)
+        {
+            ViewBag.Count = count;
+            return View();
+        }
+
         public IActionResult Numbers()
         {
             return View();
