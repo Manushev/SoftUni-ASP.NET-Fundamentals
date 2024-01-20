@@ -1,0 +1,20 @@
+﻿@using MVCDemo.Models.Product;
+@model IEnumerable<ProductViewModel>
+
+@{
+    ViewData["Title"] = "All Product";
+}
+
+<h2 class="">All Products</h2>
+
+<div class="product-list row-cols-sm-5 ">
+    <div class="card ">
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>N.@product.Id: @product.Name - @product.Price lv.</li>
+        }
+    </ul>
+
+</div>
+</div>
