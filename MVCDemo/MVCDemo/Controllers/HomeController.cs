@@ -26,6 +26,11 @@ namespace MVCDemo.Controllers
             return View();
         }
 
+        public IActionResult Numbers()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
