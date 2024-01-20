@@ -5,12 +5,12 @@ namespace MVCDemo.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly IEnumerable<ProductViewModel> products = new List<ProductViewModel>() 
-        { 
+        private readonly IEnumerable<ProductViewModel> products = new List<ProductViewModel>()
+        {
            new ProductViewModel()
-           { Id = 1, 
-               Name = "Cheese", 
-               Price = 7.00M 
+           { Id = 1,
+               Name = "Cheese",
+               Price = 7.00M
            },
            new ProductViewModel()
            { Id = 2,
@@ -29,9 +29,21 @@ namespace MVCDemo.Controllers
             return View();
         }
 
-        public IActionResult All()
+        [ActionName("All")]
+        public IActionResult GetAll()
         {
             return View(products);
         }
+
+        public IActionResult Get(int id)
+        {
+            if (products.Any(p => p.Id == id))
+            {
+                var product = products.FirstOrDefault(p => p.Id == id);
+                return View(product);
+            }
+            return BadRequest();
+        }
+
     }
 }
