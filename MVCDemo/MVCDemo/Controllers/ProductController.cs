@@ -36,11 +36,14 @@ namespace MVCDemo.Controllers
         [ActionName("My-Product")]
         public IActionResult GetAll(string keyword)
         {
-            if (products.Any(p => p.Name.ToLower() == keyword.ToLower()))
+            if (keyword != null)
             {
-                var product = products
-                .Where(p => p.Name.ToLower().Contains(keyword.ToLower()));
-                return View(product);
+                if (products.Any(p => p.Name.ToLower() == keyword.ToLower()))
+                {
+                    var product = products
+                    .Where(p => p.Name.ToLower().Contains(keyword.ToLower()));
+                    return View(product);
+                }
             }
             return View(products);
         }
