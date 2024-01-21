@@ -5,16 +5,12 @@
     ViewData["Title"] = "All Product";
 }
 
-<h2">All Products</h2>
-
-<div class="product-list row-cols-sm-5 ">
-    <div class="card ">
-    <ul>
+<div class="card" ">
+    <div class="card-header">All Product</div>
+    <div class="card-body">
         @foreach (var product in Model)
         {
             <li>N.@product.Id: @product.Name - @product.Price lv.</li>
         }
-    </ul>
-
-   </div>
+    </div>
 </div>

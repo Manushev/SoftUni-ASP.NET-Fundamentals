@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Net.Http.Headers;
 using MVCDemo.Models.Product;
+using System.Linq;
 using System.Text;
 using System.Text.Json;
 
@@ -32,9 +33,15 @@ namespace MVCDemo.Controllers
             return View();
         }
 
-        [ActionName("All")]
-        public IActionResult GetAll()
+        [ActionName("My-Product")]
+        public IActionResult GetAll(string keyword)
         {
+            if (products.Any(p => p.Name.ToLower() == keyword.ToLower()))
+            {
+                var product = products
+                .Where(p => p.Name.ToLower().Contains(keyword.ToLower()));
+                return View(product);
+            }
             return View(products);
         }
 
@@ -78,11 +85,6 @@ namespace MVCDemo.Controllers
             byte[] fileContents = Encoding.UTF8.GetBytes(plainText.ToString());
 
             return File(fileContents, "text/plain", "Products.txt");
-            //Response.Headers.Add(HeaderNames.ContentDisposition,
-            //    @"attachment;filename=products.txt");
-
-
-            //return File(Encoding.UTF8.GetBytes(plainText.ToString().TrimEnd()), "text/plain");
         }
     }
 }
