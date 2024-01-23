@@ -1,0 +1,31 @@
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\appsettings.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.staticwebassets.runtime.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.exe
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.deps.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.runtimeconfig.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\bin\Debug\net6.0\3. Text Splitter App.pdb
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.csproj.AssemblyReference.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.AssemblyInfoInputs.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.AssemblyInfo.cs
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.csproj.CoreCompileInputs.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.RazorAssemblyInfo.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.RazorAssemblyInfo.cs
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets\msbuild.3. Text Splitter App.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets\msbuild.build.3. Text Splitter App.props
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.3. Text Splitter App.props
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.3. Text Splitter App.props
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\scopedcss\bundle\3. Text Splitter App.styles.css
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\scopedcss\projectbundle\3. Text Splitter App.bundle.scp.css
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\refint\3. Text Splitter App.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.pdb
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\3. Text Splitter App.genruntimeconfig.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\3. Text Splitter App\3. Text Splitter App\obj\Debug\net6.0\ref\3. Text Splitter App.dll
