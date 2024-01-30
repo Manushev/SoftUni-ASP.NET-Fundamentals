@@ -15,6 +15,18 @@ namespace ForumApp.Core.Services
             dbContext = _dbContext;
         }
 
+        public async Task AddAsync(PostFormViewModel model)
+        {
+            var postModel = new Post
+            {
+                Title = model.Title,
+                Content = model.Content
+            };
+
+            dbContext.Posts.Add(postModel);
+            await dbContext.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<PostViewModel>> GetAllAsync()
         {
             var posts =  await dbContext.Posts
