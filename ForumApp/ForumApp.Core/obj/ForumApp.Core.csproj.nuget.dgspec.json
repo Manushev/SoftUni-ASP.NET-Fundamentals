@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Core\\ForumApp.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Core\\ForumApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Core\\ForumApp.Core.csproj",
+        "projectName": "ForumApp.Core",
+        "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Core\\ForumApp.Core.csproj",
+        "packagesPath": "C:\\Users\\yurio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\ForumApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\ForumApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\ForumApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\ForumApp.Infrastructure.csproj",
+        "projectName": "ForumApp.Infrastructure",
+        "projectPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\ForumApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yurio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yurio\\OneDrive\\Desktop\\SoftUni-ASP.NET-Fundamentals\\ForumApp\\ForumApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
