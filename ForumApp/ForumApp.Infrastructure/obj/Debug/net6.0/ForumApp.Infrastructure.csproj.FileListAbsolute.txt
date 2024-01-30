@@ -1,0 +1,14 @@
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.deps.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.runtimeconfig.json
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.pdb
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.AssemblyInfo.cs
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\refint\ForumApp.Infrastructure.dll
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.pdb
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.genruntimeconfig.cache
+C:\Users\yurio\OneDrive\Desktop\SoftUni-ASP.NET-Fundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ref\ForumApp.Infrastructure.dll

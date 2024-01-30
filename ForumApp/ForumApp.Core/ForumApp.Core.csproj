@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ForumApp.Infrastructure\ForumApp.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
