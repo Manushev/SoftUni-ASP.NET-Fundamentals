@@ -40,5 +40,19 @@ namespace ForumApp.Controllers
 
             return RedirectToAction(nameof(All));
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var model = await postService.GetByIdAsync(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(PostFormViewModel model)
+        {
+            await postService.UpdateAsync(model);
+            return RedirectToAction(nameof(All));
+        }
     }
 }

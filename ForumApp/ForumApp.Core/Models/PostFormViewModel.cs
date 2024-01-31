@@ -6,6 +6,7 @@ namespace ForumApp.Core.Models
 {
     public class PostFormViewModel
     {
+        public int Id { get; set; }
         [Required]
         [MinLength(TitleMinLength, ErrorMessage = TitleMinLengthErrorMessage), 
             MaxLength(TitleMaxLength, ErrorMessage = TitleMaxLengthErrorMessage)]
