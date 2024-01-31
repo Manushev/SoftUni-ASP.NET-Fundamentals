@@ -9,5 +9,6 @@ namespace ForumApp.Core.Contracts
         Task<IEnumerable<PostViewModel>> GetAllAsync();
         Task<PostFormViewModel> GetByIdAsync(int id);
         Task UpdateAsync(PostFormViewModel model);
+        Task DeleteAsync(int id);
     }
 }

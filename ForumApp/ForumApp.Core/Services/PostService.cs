@@ -27,6 +27,13 @@ namespace ForumApp.Core.Services
             await dbContext.SaveChangesAsync();
         }
 
+        public async Task DeleteAsync(int id)
+        {
+            var entity = await dbContext.Posts.FirstOrDefaultAsync(p => p.Id == id);
+            dbContext.Posts.Remove(entity);
+            await dbContext.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<PostViewModel>> GetAllAsync()
         {
             var posts = await dbContext.Posts

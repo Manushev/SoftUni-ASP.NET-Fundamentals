@@ -54,5 +54,12 @@ namespace ForumApp.Controllers
             await postService.UpdateAsync(model);
             return RedirectToAction(nameof(All));
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await postService.DeleteAsync(id);
+            return RedirectToAction(nameof(All));
+        }
     }
 }
